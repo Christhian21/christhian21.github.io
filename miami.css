@@ -1,0 +1,108 @@
+/*Styling*/
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    overflow: hidden;
+    background-color: #000000;
+    font-family: Arial;
+    font-size: 25px;
+    text-align: center;
+}
+/* Links */
+.navbar a {
+    float: center;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/*green hover */
+.navbar a:hover {
+    background-color: rgb(81, 255, 0);
+}
+
+/*header*/
+h1 {
+    font-size: 100px;
+}
+
+/*paragraph */
+.inTro {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+/*main content*/
+.main {
+    font-size: 20px;
+    color: white;
+    justify-content: center;
+    text-align: left;
+}
+
+/*Image */
+#img {
+    display: block;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    margin-left: auto;
+    margin-right: auto;
+    top: 1000px;
+    left: 150px;
+}
+
+/*Table*/
+#game {
+    margin-right: auto;
+    margin-left: auto;
+    border: 2px solid;
+    height: 400px;
+    width: 700px;
+}
+
+table caption {
+    text-transform: uppercase;
+    background-color: rgb(0, 255, 21);
+    color: white;
+    padding: 10px;
+}
+th:nth-child(even) {
+    color: white;
+}
+th:nth-child(odd) {
+    color: white;
+}
+tr:nth-child(even) {
+    background-color: white;
+} 
+td:nth-child(odd){
+    background-color: white;
+}
+td:nth-child(even){
+    background-color: white;
+}
+
+/*Aside*/
+#aside {
+    font-size: 25px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+/* Footer*/
+#moreInfo {
+    font-size: 18px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    top: 1500px;
+
+}
